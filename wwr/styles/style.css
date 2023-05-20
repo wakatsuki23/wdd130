@@ -14,13 +14,10 @@ nav a {
     height: 725px;
     background-color: #eaf4f4;
 }
-#hero {
-    border-radius: 20px black;
-}
 #logo_link{
     padding-top: 5px;
 }
-#hero-img {
+#hero_img {
     width: 100%;
 }
 body{
