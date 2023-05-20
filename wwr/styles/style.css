@@ -14,10 +14,19 @@ nav a {
     height: 725px;
     background-color: #eaf4f4;
 }
+#hero {
+    border-radius: 20px black;
+}
+#logo_link{
+    padding-top: 5px;
+}
+#hero-img {
+    width: 100%;
+}
 body{
     background-color: #cce3de;
     font-size: 23px;
-    font-family: 'Cardo', serif;
+    font-family: 'Cardo', serif, Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -30,7 +39,7 @@ nav a:hover{
 }
 #hero-msg h1, #hero-msg h4{
     text-align: center;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Playfair Display', serif, Arial, Helvetica, sans-serif;
 }
 .button-box{
     text-align: center;
@@ -43,7 +52,7 @@ main section{
     color: black;
     text-decoration: none;
     font-size: 18px;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Playfair Display', serif,Arial, Helvetica, sans-serif;
     padding: 15px 30px;
     margin-top: 50px;
     border-radius: 5px;
@@ -60,24 +69,22 @@ main section{
 }
 .msg h2 {
     color:#eaf4f4;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Playfair Display', serif,Arial, Helvetica, sans-serif;
 }
 .msg p {
     color: #cce3de;
     font-size: .8em;
     padding-bottom: 15px;
 }
-
-
 .home_title{
     color:black;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Playfair Display', serif,Arial, Helvetica, sans-serif;
     font-size: 2em;
     margin-top: 10px;
 }
 h4{
     color:black;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Playfair Display', serif,Arial, Helvetica, sans-serif;
 }
 .logo{
     width: 80px;
@@ -85,9 +92,6 @@ h4{
 .icon{
     width: 80px;
     padding-top: 10px;
-}
-#hero-img {
-    width: 100%;
 }
 footer p {
     font-size: 1.2em;
@@ -116,11 +120,9 @@ footer .social img {
 
 h2{
     margin: 0;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Playfair Display', serif,Arial, Helvetica, sans-serif;
 }
-#logo_link{
-    padding-top: 5px;
-}
+
 .rivers-card, .camping-card, .rapids-card {
     margin: 200px 0;
 }
@@ -128,5 +130,5 @@ h2{
     border: 10px solid black;
 }
 main section img {
-    box-sizing: border-box;
+    box-sizing: border-box  black;
 }
