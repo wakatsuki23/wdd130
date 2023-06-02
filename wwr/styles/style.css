@@ -159,7 +159,7 @@ h2{
     margin: 200px 0;
 }
 .card-img {
-    border: 10px solid black;
+    border: 10px solid #6b9080;
     transition: transform .5s;
     box-shadow: 5px 5px 10px #6f7364;
 }
