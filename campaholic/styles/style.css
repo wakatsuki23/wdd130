@@ -1,2 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Spectral:wght@300&display=swap');
+
+ #content{
+    max-width:1600px;
+    margin: 0 auto;
+    background-color:#717b6d;
+    z-index: -28;
+}
+header{
+    background-color:#2a4808;
+    display:grid;
+    grid-template-columns: 150px auto;
+}
+nav{
+    display:flex;
+    justify-content: space-around;
+}
+nav a {
+    text-align: center;
+    color: #c2b0a1;
+    text-decoration: none;
+    padding: 35px;
+    
+   
+}
+#logo_link{
+    padding-top:5px;
+    justify-self: center;
+    align-self:center;
+}
+.logo{
+    width:250px;
+    height:250px;
+    margin-left:160px;
+    border-radius: 80%;
+    justify-self: right;
+    background-color: #c2b0a1;
+}    
+body{
+    color: black;
+    font-size:23px;
+    font-family: "Spectral", Arial, Helvetica, sans-serif;
+} 
+#home_title{
+    font-family: "Libre Baskerville";
+    text-align:center;
+    border: 10px solid;
+    padding: 5px 1px;
+    font-size:35px;
+    margin: 40px 300px;
+    background-color: #c2b0a1;
+}
+.home_grid{
+    display:grid;
+    row-gap: 25px;
+    grid-template-columns:repeat(9,1fr);
+    grid-template-rows: 1.5fr .5fr .3fr 80px 2fr
+}
+#hero_image1{
+    grid-column: 2/9;
+    grid-row: 1/2;
+    height: 800px;
+    width: 1600px;
+}
+.main_paragraph{
+    grid-column: 3/8;
+    grid-row: 2/4;
+}
+#camping_types_title{
+    grid-column: 4/7;
+    grid-row: 3/4;
+    margin:0 auto;
+    text-align: center;
+    align-self: center;
+    padding:10px 60px;
+    border: solid black;
+    background-color: #c2b0a1;
+    
+}
+#campgrounds{
+    grid-column: 3/5;
+    grid-row:5/6;
+    margin:0 auto;
+    text-align: center;
+    background-color: #c2b0a1;
+}
+#campground_picture{
+    height: 500px;
+    width: 100%;
+}
+#dispersed_camping{
+    grid-column: 6/8;
+    grid-row:5/6;
+    margin:0 auto;
+    text-align: center;
+    background-color: #c2b0a1;
+}
+#dispersed_camping_picture{
+    height: 500px;
+    width: 600px;
+
+}
 
 
+
+
+footer p {
+    font-size: 1.2em;
+}
+footer p a:hover {
+    text-decoration: underline;
+}
+
+footer a{
+    color:#c2b0a1;
+    text-decoration: none;
+}
+footer a:hover{
+    color:black;
+    background-color: #c2b0a1;
+}
+footer{
+    background-color: #2a4808;
+    color:#c2b0a1;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer .social img {
+    padding-top: 15px;
+}
+.logo1{
+    width:400px;
+    height:375px;
+    margin-right:160px;
+    justify-self: left;
+    
+}
