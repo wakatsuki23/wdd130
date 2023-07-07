@@ -2,10 +2,14 @@
 
  #content{
     max-width:1600px;
+    max-height: 1100px;
     margin: 0 auto;
-    background-color:#717b6d;
-    /* z-index: -28; */
+    background-color: #717b6d;
+    color: black;
+    font-size:23px;
+    font-family: "Spectral", Arial, Helvetica, sans-serif;
 }
+
 header{
     background-color:#2a4808;
     display:grid;
@@ -36,11 +40,7 @@ nav a {
     justify-self: right;
     background-color: #c2b0a1;
 }    
-body{
-    color: black;
-    font-size:23px;
-    font-family: "Spectral", Arial, Helvetica, sans-serif;
-} 
+ 
 #home_title{
     font-family: "Libre Baskerville";
     text-align:center;
@@ -51,11 +51,12 @@ body{
     background-color: #c2b0a1;
 }
 .home_grid{
+    background-color: #717b6d;
     display:grid;
     row-gap: 25px;
     grid-template-columns:repeat(9,1fr);
     grid-template-rows: 1.5fr .10fr .5fr .5fr .5fr
-
+    
 }
 /* ---------hero image/main paragraph----------------- */
 #hero_image1{
@@ -144,7 +145,7 @@ footer a:hover{
 footer{
     background-color: #2a4808;
     color:#c2b0a1;
-    padding: 25px 50px;
+    padding: 50px 50px;
     margin-top: 200px;
     display: flex;
     /* justify-content:space-around; */
@@ -161,9 +162,150 @@ footer{
     justify-self: left;
     
 }
-#campgrounds p:nth-of-type(1), #dispersed_camping p:nth-of-type(1){
-    font-family: "Spectral", Helvetica, sans-serif;
-}
+/* #campgrounds p:nth-of-type(1), #dispersed_camping p:nth-of-type(1){
+    font-family: "Spectral", Helvetica, sans-serif; */
+
 h3{
     font-family: "Libre Baskerville";
 }
+
+/* ******************************page 2*********************************** */
+.second_page_grid{
+    display:grid;
+    background-color: #717b6d;
+    grid-template-columns: repeat(4, 375px);
+    grid-column-gap:30px;
+    grid-template-rows:500px 500px 500px 500px;
+    grid-row-gap: 30px;
+    
+}
+.planning{
+    grid-column: 1/3;
+    grid-row: 1/3;
+    padding: 20px;
+    margin: 80px;
+    z-index: 1;
+    justify-content: space-around;
+    background-color: #c2b0a1;
+    
+}
+.red_title{
+    margin:0 auto;
+    padding-left:120px;
+    padding:40px;
+    /* background-color: black; */
+    color:black;
+}
+.red {
+    /* background-color: black; */
+    color:black;
+}
+.container {
+    position: relative;
+    grid-column:1/3;
+    grid-row:3/5;
+    margin:80px;
+}
+
+.text-block{
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.essentials{
+    grid-column: 3/5;
+    grid-row: 1/4;
+    border: dotted 10px;
+    padding: 20px;
+    margin:60px;
+    background-color: #2a4808;
+    color: white;
+}
+.second_page_2{
+    grid-column:3/5;
+    grid-row: 4/5;
+    
+}
+#setup{
+    height:400px;
+    width: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .second_page_grid{
+    display:grid;
+    width: 1600px;
+    
+    /* margin:auto; */
+    /* grid-template-columns: 1fr 1fr 1fr 1fr ;
+    grid-template-rows:min-content;
+    gap: 50px;
+    ;
+} */
+
+/* .planning{
+    margin-left:10%;
+    margin-right:5%;
+    grid-column:1/3;
+    grid-row: 1/2;
+    padding: 10px;
+    
+} */
+/* .essentials{
+    border:solid;
+    margin-left:5%;
+    margin-right:10%;
+    grid-column:3/5;
+    grid-row:1/2;
+    padding: 10px;
+    background-color: #c2b0a1;
+} */ 
+
+
+
+
+/* ---------pictures---------------------- */
+/* .second_page_1, img{
+    height: 100%;
+    width: 100%;
+    grid-row:2/3;
+    position: relative;
+} */
+
+/* .text-block {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+  } */
+/* .second_page_2, img{
+    height: 100%;
+    width: 100%;
+    grid-row: 2/3; 
+    
+}*/
+
+
+
