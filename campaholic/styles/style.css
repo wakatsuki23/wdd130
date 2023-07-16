@@ -155,7 +155,7 @@ footer{
 .menu{
     grid-column:2/3;
     grid-row:3/5;
-    justify-content: bottom;
+
 }
 .created_by{
     grid-column: 3/5;
