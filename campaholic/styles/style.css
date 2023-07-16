@@ -161,7 +161,7 @@ footer{
     grid-column: 3/5;
     grid-row-start: 4;
 }
-/* footer p a:hover {
+footer p a:hover {
     text-decoration: underline;
 }
 
@@ -172,7 +172,7 @@ footer a{
 footer a:hover{
     color:black;
     background-color: #eaf4f4;
-} */
+}
 /* ******************************page 2*********************************** */
 .second_page_grid{
     display:grid;
@@ -312,7 +312,7 @@ footer a:hover{
     grid-column: 4/6;
     grid-row:5/7;
 }
-.last_images h1{
+.last_images p{
     background-color: black;
     color:white;
     margin: auto;
