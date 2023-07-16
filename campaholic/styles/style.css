@@ -2,19 +2,20 @@
 
  #content{
     max-width:1600px;
-    max-height: 1100px;
+    max-height: 1600px;
     margin: 0 auto;
     background-color: #717b6d;
     color: black;
     font-size:23px;
     font-family: "Spectral", Arial, Helvetica, sans-serif;
+    
 }
-
 header{
     background-color:#2a4808;
     display:grid;
     grid-template-columns: 150px auto;
     margin-top: 0;
+      
 }
 nav{
     display:flex;
@@ -25,8 +26,7 @@ nav a {
     color: #c2b0a1;
     text-decoration: none;
     padding: 35px;
-    
-   
+     
 }
 #logo_link{
     padding-top:5px;
@@ -41,7 +41,6 @@ nav a {
     justify-self: right;
     background-color: #c2b0a1;
 }    
- 
 #home_title{
     font-family: "Libre Baskerville";
     text-align:center;
@@ -57,7 +56,6 @@ nav a {
     row-gap: 25px;
     grid-template-columns:repeat(9,1fr);
     grid-template-rows: 1.5fr .10fr .5fr .5fr .5fr
-    
 }
 /* ---------hero image/main paragraph----------------- */
 #hero_image1{
@@ -95,7 +93,6 @@ nav a {
     text-align: center;
     /* background-color: #c2b0a1; */
 }
-
 #dispersed_camping{
     grid-column: 6/8;
     grid-row:4/5;
@@ -124,52 +121,58 @@ button{
     font-family: "Libre Baskerville";
     grid-row:4/5;
 }
-
-
+h3{
+    font-family: "Libre Baskerville";
+}
 /* -------------------------------------------------------------- */
 
-footer p {
-    font-size: 1.2em;
+/* footer a{
+    color:#c2b0a1;
+    text-decoration: none;
+} */
+/* footer a:hover{
+    color:black;
+    background-color: #c2b0a1;
+} */
+footer{
+    background-color: #2a4808;
+    color:#c2b0a1;
+    display: grid;
+    grid-template-columns:250px 250px 250px 250px 250px 230px;
+    grid-template-rows: 10px 100px 100px 80px;
+    gap:10px;
 }
-footer p a:hover {
+.social {
+    grid-column: 5/7;
+    grid-row:4/5;
+    margin:auto;
+    text-decoration: underline;
+}
+.logo1{
+    grid-row: 2/4;
+    grid-column: 1/2;
+}
+.menu{
+    grid-column:2/3;
+    grid-row:3/5;
+    justify-content: bottom;
+}
+.created_by{
+    grid-column: 3/5;
+    grid-row-start: 4;
+}
+/* footer p a:hover {
     text-decoration: underline;
 }
 
 footer a{
-    color:#c2b0a1;
+    color:#eaf4f4;
     text-decoration: none;
 }
 footer a:hover{
     color:black;
-    background-color: #c2b0a1;
-}
-footer{
-    background-color: #2a4808;
-    color:#c2b0a1;
-    padding: 50px 50px;
-    
-    display: flex;
-    /* justify-content:space-around; */
-    justify-content:space-between;
-    align-items:baseline;
-}
-/* footer .social img {
-    padding-top: 35px;
+    background-color: #eaf4f4;
 } */
-.logo1{
-    width:400px;
-    height:375px;
-    margin-right:160px;
-    justify-self: left;
-    
-}
-/* #campgrounds p:nth-of-type(1), #dispersed_camping p:nth-of-type(1){
-    font-family: "Spectral", Helvetica, sans-serif; */
-
-h3{
-    font-family: "Libre Baskerville";
-}
-
 /* ******************************page 2*********************************** */
 .second_page_grid{
     display:grid;
@@ -179,7 +182,6 @@ h3{
     grid-template-rows:500px 500px 500px 500px;
     grid-row-gap: 30px;
     margin-bottom: 0;
-    /* height:100%; */
     
 }
 .planning{
@@ -207,7 +209,6 @@ h3{
     grid-row:3/5;
     margin:80px;
 }
-
 .text-block{
     position: absolute;
     bottom: 20px;
@@ -239,8 +240,89 @@ h3{
     width: auto;
 
 }
+/* 
+-------------page 3 ----------------------------------------------------------------------------------------- */  
+.third_page_grid{
+    background-color: #717b6d;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 150px 240px 210px 200px 250px 350px;
 
+}
 
+.optional_items {
+    
+    grid-column:4/6;
+    grid-row:2/5;
+    border-radius: 80px;
+    background-color:#2a4808;
+    color:#c2b0a1;
+    padding:20px;
+    margin-bottom: 0;
+    word-wrap: break-word;
+    margin:auto;
 
+}
+.title_optional_items{
+    grid-column: 4/6;
+    text-shadow: 2px 2px 5px #2a4808;
+    text-align: center;
+    color: black;
+}
 
+.common_curtesy{
+    grid-column:1/4;
+    grid-row:2/3;
+    z-index: 1;
+    text-align: center;
+    box-sizing: border-box;
+    vertical-align:middle;
+    background-color: #717A34;
+    border-radius: 30px;
+    margin:auto;
+}
+.common_curtesy, h2 {
+    color: black;
+    z-index: 10;
+}
+.shared_camp{
+    grid-column:1/4;
+    grid-row: 3/5;
+    color: white;
+    background-color: #2a4808;
+    text-overflow: clip;
+    text-align: center;
+    padding-top: 20px;
+    margin: auto;
+    border-radius: 35px;
+}
+.thank_you{
+    grid-column: 2/3;
+    grid-row:5/6;
+    text-shadow: 2px 2px 5px #2a4808;
+    text-align: center;
+    background-color: #c2b0a1;
+    margin:auto;
+    border-radius: 25px;
+}
 
+.last_images{
+    
+    grid-column: 4/6;
+    grid-row:5/7;
+}
+.last_images h1{
+    background-color: black;
+    color:white;
+    margin: auto;
+    border-radius: 25px;
+    text-align: center;
+}
+.image1_3{
+    width: auto;
+    height: 500px;
+    border-radius: 35px;
+    opacity:0.7;
+    align-items: center;
+}
