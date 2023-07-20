@@ -8,7 +8,8 @@
     color: black;
     font-size:23px;
     font-family: "Spectral", Arial, Helvetica, sans-serif;
-    
+    background-size: 100% auto;
+    width: 100vw;
 }
 header{
     background-color:#2a4808;
@@ -55,7 +56,9 @@ nav a {
     display:grid;
     row-gap: 25px;
     grid-template-columns:repeat(9,1fr);
-    grid-template-rows: 1.5fr .10fr .5fr .5fr .5fr
+    height:auto;
+    grid-template-rows: 900px 250px 300px .5fr 50px;
+    
 }
 /* ---------hero image/main paragraph----------------- */
 #hero_image1{
@@ -63,6 +66,8 @@ nav a {
     grid-row: 1/2;
     height: 800px;
     width: 1600px;
+    /* width:fit-content; */
+
 }
 .main_paragraph {
     grid-column: 3/8;
@@ -91,20 +96,20 @@ nav a {
     grid-row:4/5;
     margin:0 auto;
     text-align: center;
-    /* background-color: #c2b0a1; */
+    
 }
 #dispersed_camping{
     grid-column: 6/8;
     grid-row:4/5;
     margin:0 auto;
     text-align: center;
-    /* background-color: #c2b0a1; */
+    
 }
 /* ---------pictures---------------------- */
 #dispersed_camping_picture{
     height: 500px;
     width: 550px;
-    box-shadow:5px 5px 10px #717b6d;
+    box-shadow:20px 20px 30px #717b6d;
 }
 #campground_picture{
     height: 500px;
@@ -121,19 +126,13 @@ button{
     font-family: "Libre Baskerville";
     grid-row:4/5;
 }
+
+
 h3{
     font-family: "Libre Baskerville";
 }
 /* -------------------------------------------------------------- */
 
-/* footer a{
-    color:#c2b0a1;
-    text-decoration: none;
-} */
-/* footer a:hover{
-    color:black;
-    background-color: #c2b0a1;
-} */
 footer{
     background-color: #2a4808;
     color:#c2b0a1;
@@ -262,6 +261,7 @@ footer a:hover{
     margin-bottom: 0;
     word-wrap: break-word;
     margin:auto;
+    margin-right: 50px;
 
 }
 .title_optional_items{
@@ -316,8 +316,9 @@ footer a:hover{
     background-color: black;
     color:white;
     margin: auto;
-    border-radius: 25px;
+    border-radius: 20px;
     text-align: center;
+    margin-right:50px;
 }
 .image1_3{
     width: auto;
